@@ -2,7 +2,7 @@ plugins {
     val kotlinVersion: String by System.getProperties()
 
     kotlin("jvm") version kotlinVersion
-    id("fabric-loom") version "0.10.+"
+    id("fabric-loom") version "0.11.+"
 }
 
 group = "com.example"
