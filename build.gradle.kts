@@ -1,6 +1,7 @@
 plugins {
     val kotlinVersion: String by System.getProperties()
 
+    java
     kotlin("jvm") version kotlinVersion
     id("fabric-loom") version "0.11.+"
 }
