@@ -3,7 +3,7 @@ plugins {
 
     java
     kotlin("jvm") version kotlinVersion
-    id("fabric-loom") version "0.12.+"
+    id("fabric-loom") version "1.0.+"
 }
 
 group = "com.example"
